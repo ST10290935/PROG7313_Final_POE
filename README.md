@@ -151,7 +151,25 @@ The Financial and Budgeting App is a comprehensive tool designed to empower user
 ## Unique Features
 
 
-<details> <summary style="font-weight: bold;">📸 Attach Receipts to Expenses</summary> <p>Capture or upload images of your receipts directly when logging an expense. This helps you keep visual proof of transactions, making it easier to track and verify purchases.</p> </details> <details> <summary style="font-weight: bold;">💱 Built-in Currency Converter</summary> <p>Convert foreign expenses into ZAR (South African Rand) instantly with the integrated currency converter. Perfect for travelers and international purchases.</p> </details> <details> <summary style="font-weight: bold;">🧮 Embedded Calculator</summary> <p>Make quick financial calculations within the app using the built-in calculator. No need to switch apps to total expenses or perform quick arithmetic.</p> </details> <details> <summary style="font-weight: bold;">📊 Dynamic Category-Based Charts</summary> <p>View your spending trends broken down by category over time. Identify which areas take up most of your budget and adjust your habits accordingly.</p>
+<details>
+  <summary><strong>📸 Attach Receipts to Expenses</strong></summary>
+  <p>Capture or upload images of your receipts directly when logging an expense. This helps you keep visual proof of transactions, making it easier to track and verify purchases.</p>
+</details>
+
+<details>
+  <summary><strong>💱 Built-in Currency Converter</strong></summary>
+  <p>Convert foreign expenses into ZAR (South African Rand) instantly with the integrated currency converter. Perfect for travelers and international purchases.</p>
+</details>
+
+<details>
+  <summary><strong>🧮 Embedded Calculator</strong></summary>
+  <p>Make quick financial calculations within the app using the built-in calculator. No need to switch apps to total expenses or perform quick arithmetic.</p>
+</details>
+
+<details>
+  <summary><strong>📊 Dynamic Category-Based Charts</strong></summary>
+  <p>View your spending trends broken down by category over time. Identify which areas take up most of your budget and adjust your habits accordingly.</p>
+</details>
 
 ### YouTube Link
 
