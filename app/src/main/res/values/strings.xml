@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App General -->
+    <string name="app_name">Cash Flow</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_image_desc">Profile Image</string>
+    <string name="username_placeholder">User Name</string>
+    <string name="bio_placeholder">Short bio goes here. This is a sample bio text.</string>
+    <string name="full_name_placeholder">John Doe</string>
+    <string name="email_placeholder">johndoe@example.com</string>
+    <string name="phone_placeholder">+1 (234) 567-8900</string>
+
+    <!-- Registration Screen -->
+    <string name="back_button_desc">Navigate back to previous screen</string>
+    <string name="screen_title_registration">Registration</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="button_register">Register</string>
+
+    <!-- Missing strings from activity_login.xml -->
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="no_account_prompt">Dont have an account?</string>
+    <string name="register_here">Register here</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Missing strings from activity_registration.xml -->
+    <string name="register">Register</string>
+    <string name="full_name">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+
+    <string name="logo_desc">Your Logo Description</string>
+    <string name="profile_picture">Profile Picture</string>
+
+    <!-- Chart Date Range -->
+    <string name="chart_date_range">Date Range</string>
+    <string name="custom_range">Custom Range</string>
+    <string name="one_month">1 Month</string>
+    <string name="three_months">3 Months</string>
+    <string name="six_months">6 Months</string>
+    <string name="one_year">1 Year</string>
+    <string name="all_time">All Time</string>
+    <string name="select_date_range">Select Date Range</string>
+    <string name="from_date">From Date</string>
+    <string name="to_date">To Date</string>
+    <string name="apply">Apply</string>
+    <string name="cancel">Cancel</string>
+
+</resources>

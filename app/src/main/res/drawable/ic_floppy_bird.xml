@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- A simple bird silhouette -->
+    <path
+        android:fillColor="#FF000000"
+        android:fillAlpha="0.8"
+        android:pathData="M9.35,10.04C8.67,10.28 8,10.84 8,11.55c0,0.46 0.17,0.89 0.49,1.23l3.36,3.58 3.34-3.58c0.32-0.34 0.49-0.77 0.49-1.23 0-0.71-0.67-1.27-1.35-1.51l-0.49-0.17c-0.33-0.11-0.57-0.42-0.57-0.77v-2.07c0-0.5-0.4-0.9-0.9-0.9H10.81c-0.5,0-0.9,0.4-0.9,0.9v2.07c0,0.35-0.24,0.66-0.57,0.77L9.35,10.04z" />
+</vector>

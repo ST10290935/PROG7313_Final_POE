@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Code Attribution:
+For the below xml code these are the sources I used to improve the UI/UX of the features:
+ Education is Life (joed goh), 2021. 07 Styles and Themes - User Interface| Material Design System | Android App Development in Kotlin.[online video] Available at: <https://youtu.be/ynOUzHFFMeg?si=puOjYNC9NjNCBSfD [Accessed 26 April 2025].
+
+DentistKiller., 2024. fakeBook (version 1) [Source code]. Available at: <https://github.com/Dentistkiller/fakeBook.git> [Accessed 27 April 2025].
+-->
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="ExtraText">
+
+        <!-- Back Button -->
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#616161"
+        android:padding="8dp"
+        android:text="← Back"
+        android:textColor="#FFFFFF" />
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Expense"
+            android:textSize="26sp"
+            android:textColor="#212121"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+        <!-- Amount Input -->
+        <EditText
+            android:id="@+id/etAmount"
+            android:hint="Amount (R)"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:padding="14dp"
+            android:textColor="#212121"
+            android:textColorHint="#757575"/>
+
+        <!-- Description -->
+        <EditText
+            android:id="@+id/etDescription"
+            android:hint="Description"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:padding="14dp"
+            android:textColor="#212121"
+            android:textColorHint="#757575"/>
+
+        <!-- Date Selector -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/btnSelectDate"
+                android:text="Select Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#388E3C"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="12dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+
+            <TextView
+                android:id="@+id/tvSelectedDate"
+                android:text="No date selected"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textColor="#555555"/>
+        </LinearLayout>
+
+        <!-- Category Label -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Category:"
+            android:textColor="#212121"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"/>
+
+        <!-- Category Spinner -->
+        <Spinner
+            android:id="@+id/spinnerCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/rounded_edittext"
+            android:minHeight="48dp"
+            android:padding="10dp" />
+
+        <!-- Add Photo -->
+        <Button
+            android:id="@+id/btnAddPhoto"
+            android:text="Add Photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#3F51B5"
+        android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnCapturePhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capture Photo"/>
+
+
+        <!-- Photo Preview -->
+        <ImageView
+            android:id="@+id/ivPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:background="@drawable/rounded_imageview"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/btnSave"
+            android:text="Save Expense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#009688"
+        android:textColor="#FFFFFF"/>
+    </LinearLayout>
+</ScrollView>

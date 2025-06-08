@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "433881986338",
+    "project_id": "opscpoe-76d40",
+    "storage_bucket": "opscpoe-76d40.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433881986338:android:ebd50c1e5554615752a17b",
+        "android_client_info": {
+          "package_name": "com.fake.cashflow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3ghVJwZPw1JVjp1-e68kSjAq7E5iBb34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433881986338:android:d860842dcd7b72d252a17b",
+        "android_client_info": {
+          "package_name": "com.fake.cashflow_v2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3ghVJwZPw1JVjp1-e68kSjAq7E5iBb34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

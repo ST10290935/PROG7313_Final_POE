@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Code Attribution:
+For the below xml code these are the sources I used to improve the UI/UX of the features:
+ Education is Life (joed goh), 2021. 07 Styles and Themes - User Interface| Material Design System | Android App Development in Kotlin.[online video] Available at: <https://youtu.be/ynOUzHFFMeg?si=puOjYNC9NjNCBSfD [Accessed 26 April 2025].
+
+DentistKiller., 2024. fakeBook (version 1) [Source code]. Available at: <https://github.com/Dentistkiller/fakeBook.git> [Accessed 27 April 2025].
+-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    tools:context=".activities.CategoryActivity">
+
+
+<Button
+android:id="@+id/btnBack"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="← Back"
+android:layout_marginBottom="24dp"
+android:backgroundTint="#616161"
+    android:textColor="#FFFFFF"
+    android:padding="12dp"
+    android:layout_gravity="start"/>
+
+
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Manage Categories"
+android:textSize="26sp"
+android:textStyle="bold"
+android:textColor="#212121"
+    android:gravity="center"
+    android:layout_marginBottom="32dp"/>
+
+
+<EditText
+android:id="@+id/etCategoryName"
+android:hint="Category Name"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginBottom="24dp"
+android:inputType="text"
+android:maxLines="1"
+android:padding="14dp"
+android:background="@drawable/rounded_edittext"
+android:textColor="#212121"
+android:textColorHint="#9E9E9E"/>
+
+
+<Button
+android:id="@+id/btnAddCategory"
+android:text="Add Category"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginBottom="24dp"
+android:backgroundTint="#009688"
+    android:textColor="#FFFFFF"
+    android:padding="14dp"/>
+
+    <!-- Recycler -->
+<androidx.recyclerview.widget.RecyclerView
+android:id="@+id/rvCategories"
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:layout_weight="1"
+tools:listitem="@layout/item_category"/>
+
+    </LinearLayout>

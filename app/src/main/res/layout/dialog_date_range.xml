@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Code Attribution:
+For the below xml code these are the sources I used to improve the UI/UX of the features:
+ Education is Life (joed goh), 2021. 07 Styles and Themes - User Interface| Material Design System | Android App Development in Kotlin.[online video] Available at: <https://youtu.be/ynOUzHFFMeg?si=puOjYNC9NjNCBSfD [Accessed 26 April 2025].
+
+DentistKiller., 2024. fakeBook (version 1) [Source code]. Available at: <https://github.com/Dentistkiller/fakeBook.git> [Accessed 27 April 2025].
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_date_range"
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        android:layout_marginBottom="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioCustom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/custom_range" />
+
+        <RadioButton
+            android:id="@+id/radioOneMonth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/one_month" />
+
+        <RadioButton
+            android:id="@+id/radioThreeMonths"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/three_months" />
+
+        <RadioButton
+            android:id="@+id/radioSixMonths"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/six_months" />
+
+        <RadioButton
+            android:id="@+id/radioOneYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/one_year"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radioAllTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/all_time" />
+    </RadioGroup>
+
+    <!-- Custom Date Range section -->
+    <LinearLayout
+        android:id="@+id/layoutCustomDates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/from_date"
+                android:layout_marginEnd="8dp"/>
+
+            <Button
+                android:id="@+id/btnFromDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:text="01/01/2023"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/to_date"
+                android:layout_marginEnd="8dp"/>
+
+            <Button
+                android:id="@+id/btnToDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:text="31/12/2023"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Dialog buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+        <Button
+            android:id="@+id/btnApply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/apply"/>
+    </LinearLayout>
+</LinearLayout>

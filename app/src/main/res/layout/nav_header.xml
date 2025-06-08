@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Code Attribution:
+For the below xml code these are the sources I used to improve the UI/UX of the features:
+ Education is Life (joed goh), 2021. 07 Styles and Themes - User Interface| Material Design System | Android App Development in Kotlin.[online video] Available at: <https://youtu.be/ynOUzHFFMeg?si=puOjYNC9NjNCBSfD [Accessed 26 April 2025].
+
+DentistKiller., 2024. fakeBook (version 1) [Source code]. Available at: <https://github.com/Dentistkiller/fakeBook.git> [Accessed 27 April 2025].
+-->
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="#000000"
+    android:gravity="bottom"
+    android:padding="16dp">
+
+    <ImageView
+         android:id="@+id/imgProfile"
+         android:layout_width="64dp"
+         android:layout_height="64dp"
+         android:src="@drawable/ic_profile"
+         android:contentDescription="@string/profile_picture"
+         android:scaleType="centerCrop"
+         android:background="@drawable/circle_background" />
+
+    <TextView
+         android:id="@+id/tvWelcome"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Welcome, Guest"
+         android:textColor="@android:color/white"
+         android:textSize="18sp"
+         android:paddingTop="8dp"/>
+         
+    <TextView
+         android:id="@+id/tvUserEmail"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text=""
+         android:textColor="@android:color/white"
+         android:textSize="14sp"
+         android:maxLines="1"
+         android:ellipsize="end"/>
+</LinearLayout>
