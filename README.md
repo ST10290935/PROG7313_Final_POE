@@ -143,10 +143,32 @@ The Financial and Budgeting App is a comprehensive tool designed to empower user
         <img src="https://github.com/user-attachments/assets/b2c1c9b9-309a-4962-92a1-5bc63f74c924" alt="Screenshot 9" width="200"><br>
         <sub>⬇️ Download</sub>
       </td>
-      <td></td>
+       <td>
+        <img src="https://github.com/user-attachments/assets/4c2ebca4-1b4a-48ab-80fe-061a475ca8cc" alt="Screenshot 9" width="200"><br>
+        <sub>🧮 Calculator</sub>
+      </td>
+      <td>
+        <img src="https://github.com/user-attachments/assets/b2c1c9b9-309a-4962-92a1-5bc63f74c924" alt="Screenshot 9" width="200"><br>
+        <sub>🧮 Calculator</sub>
+      </td>
+     <td>
+        <img src="https://github.com/user-attachments/assets/6ab59c33-1127-4a9f-9bd5-ee7cfa41c2b0" alt="Screenshot 9" width="200"><br>
+        <sub>💱 Currency converter</sub>
+      </td>
+      <td>
+        <img src="https://github.com/user-attachments/assets/7b575a3e-d8f8-47c3-a01f-32e4e59953c5" alt="Screenshot 9" width="200"><br>
+        <sub>📸 Upload a photo</sub>
+      </td>
+     <td>
+        <img src="https://github.com/user-attachments/assets/83c02ea5-fcfa-41d8-9aa0-64563349f4ba" alt="Screenshot 9" width="200"><br>
+        <sub>📈 Trends chart</sub>
+      </td>
     </tr>
   </table>
 </p>
+
+
+
 
 ## Unique Features
 
