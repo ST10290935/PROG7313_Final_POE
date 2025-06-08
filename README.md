@@ -93,79 +93,77 @@ The Financial and Budgeting App is a comprehensive tool designed to empower user
 
 ### Application Preview
 
-<p align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/4f475e5b-a9bf-490e-98bc-91e50e2aff3d" alt="Screenshot 1" width="200"><br>
-        <sub>🔐 Register</sub>
-      </td>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/a231c364-8934-439d-8a04-ca6b266ce212" alt="Screenshot 2" width="200"><br>
-        <sub>🔐 Login </sub>
-      </td>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/246a65c1-c7d0-42e0-b1e4-cf168092b77e" alt="Screenshot 3" width="200"><br>
-        <sub>📊 Dashboard</sub>
-      </td>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/4891c0be-0797-4c2b-995e-3f492ae6e9e0" alt="Screenshot 4" width="200"><br>
-        <sub>💸 Tracking</sub>
-      </td>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/864a298a-7a15-4233-8625-61eb4d7ab903" alt="Screenshot 5" width="200"><br>
-        <sub>📈 Reports</sub>
-      </td>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/456fe0cc-b814-4ba9-a53b-1f926eade863" alt="Screenshot 6" width="200"><br>
-        <sub>🖥 Feature</sub>
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/46644294-a57e-48ee-aa76-2919e032bef9" alt="Screenshot 7" width="200"><br>
-        <sub>📅 Budgeting</sub>
-      </td>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/6f0bf2b6-f29c-4883-9897-2f9ec1d8fb28" alt="Screenshot 8" width="200"><br>
-        <sub>🔍 Filtering</sub>
-      </td>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/5b199712-c24a-4374-83c6-7cf929955a17" alt="Screenshot 9" width="200"><br>
-        <sub>🛠 Categories</sub>
-      </td>
-      <!-- Empty cells to keep row aligned -->
-      <td>
-        <img src="https://github.com/user-attachments/assets/a10df17a-95b6-44e1-8d21-1d71790382b8" alt="Screenshot 9" width="200"><br>
-        <sub>⬆️ Upload</sub>
-      </td>
-      <td>
-        <img src="https://github.com/user-attachments/assets/b2c1c9b9-309a-4962-92a1-5bc63f74c924" alt="Screenshot 9" width="200"><br>
-        <sub>⬇️ Download</sub>
-      </td>
-       <td>
-        <img src="https://github.com/user-attachments/assets/4c2ebca4-1b4a-48ab-80fe-061a475ca8cc" alt="Screenshot 9" width="200"><br>
-        <sub>🧮 Calculator</sub>
-      </td>
-      <td>
-        <img src="https://github.com/user-attachments/assets/b2c1c9b9-309a-4962-92a1-5bc63f74c924" alt="Screenshot 9" width="200"><br>
-        <sub>🧮 Calculator</sub>
-      </td>
-     <td>
-        <img src="https://github.com/user-attachments/assets/6ab59c33-1127-4a9f-9bd5-ee7cfa41c2b0" alt="Screenshot 9" width="200"><br>
-        <sub>💱 Currency converter</sub>
-      </td>
-      <td>
-        <img src="https://github.com/user-attachments/assets/7b575a3e-d8f8-47c3-a01f-32e4e59953c5" alt="Screenshot 9" width="200"><br>
-        <sub>📸 Upload a photo</sub>
-      </td>
-     <td>
-        <img src="https://github.com/user-attachments/assets/83c02ea5-fcfa-41d8-9aa0-64563349f4ba" alt="Screenshot 9" width="200"><br>
-        <sub>📈 Trends chart</sub>
-      </td>
-    </tr>
-  </table>
-</p>
+<h2 align="center">📱 App Screenshots</h2>
+
+<table align="center">
+  <tr>
+    <td align="center" width="200px">
+      <img src="https://github.com/user-attachments/assets/4f475e5b-a9bf-490e-98bc-91e50e2aff3d" width="180" alt="Register" /><br/>
+      <sub>🔐 Register</sub>
+    </td>
+    <td align="center" width="200px">
+      <img src="https://github.com/user-attachments/assets/a231c364-8934-439d-8a04-ca6b266ce212" width="180" alt="Login" /><br/>
+      <sub>🔐 Login</sub>
+    </td>
+    <td align="center" width="200px">
+      <img src="https://github.com/user-attachments/assets/246a65c1-c7d0-42e0-b1e4-cf168092b77e" width="180" alt="Dashboard" /><br/>
+      <sub>📊 Dashboard</sub>
+    </td>
+    <td align="center" width="200px">
+      <img src="https://github.com/user-attachments/assets/4891c0be-0797-4c2b-995e-3f492ae6e9e0" width="180" alt="Tracking" /><br/>
+      <sub>💸 Tracking</sub>
+    </td>
+    <td align="center" width="200px">
+      <img src="https://github.com/user-attachments/assets/0c0035cb-86c2-49d0-8714-49270289f557" width="180" alt="Reports" /><br/>
+      <sub>📈 Reports</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="200px">
+      <img src="https://github.com/user-attachments/assets/456fe0cc-b814-4ba9-a53b-1f926eade863" width="180" alt="Feature" /><br/>
+      <sub>🖥 Feature</sub>
+    </td>
+    <td align="center" width="200px">
+      <img src="https://github.com/user-attachments/assets/46644294-a57e-48ee-aa76-2919e032bef9" width="180" alt="Budgeting" /><br/>
+      <sub>📅 Budgeting</sub>
+    </td>
+    <td align="center" width="200px">
+      <img src="https://github.com/user-attachments/assets/6f0bf2b6-f29c-4883-9897-2f9ec1d8fb28" width="180" alt="Filtering" /><br/>
+      <sub>🔍 Filtering</sub>
+    </td>
+    <td align="center" width="200px">
+      <img src="https://github.com/user-attachments/assets/5b199712-c24a-4374-83c6-7cf929955a17" width="180" alt="Categories" /><br/>
+      <sub>🛠 Categories</sub>
+    </td>
+    <td align="center" width="200px">
+      <img src="https://github.com/user-attachments/assets/a10df17a-95b6-44e1-8d21-1d71790382b8" width="180" alt="Upload" /><br/>
+      <sub>⬆️ Upload</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="200px">
+      <img src="https://github.com/user-attachments/assets/b2c1c9b9-309a-4962-92a1-5bc63f74c924" width="180" alt="Download" /><br/>
+      <sub>⬇️ Download</sub>
+    </td>
+    <td align="center" width="200px">
+      <img src="https://github.com/user-attachments/assets/4c2ebca4-1b4a-48ab-80fe-061a475ca8cc" width="180" alt="Calculator" /><br/>
+      <sub>🧮 Calculator</sub>
+    </td>
+    <td align="center" width="200px">
+      <img src="https://github.com/user-attachments/assets/6ab59c33-1127-4a9f-9bd5-ee7cfa41c2b0" width="180" alt="Currency Converter" /><br/>
+      <sub>💱 Converter</sub>
+    </td>
+    <td align="center" width="200px">
+      <img src="https://github.com/user-attachments/assets/7b575a3e-d8f8-47c3-a01f-32e4e59953c5" width="180" alt="Photo Upload" /><br/>
+      <sub>📸 Upload Photo</sub>
+    </td>
+    <td align="center" width="200px">
+      <img src="https://github.com/user-attachments/assets/83c02ea5-fcfa-41d8-9aa0-64563349f4ba" width="180" alt="Trends Chart" /><br/>
+      <sub>📈 Trends</sub>
+    </td>
+  </tr>
+</table>
+
 
 
 
